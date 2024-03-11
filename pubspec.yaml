@@ -1,0 +1,48 @@
+name: flutter_news
+description: "News App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  dio: ^5.4.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_slidable: ^3.0.1
+  internet_connection_checker: ^1.0.0+1
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  go_router: ^13.2.0
+  isar: ^2.1.4
+  isar_flutter_libs: ^2.1.4
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: null
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "lib/assets/images/icon.png"
+  image_path_android: "lib/assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/
+flutter_intl:
+  enabled: true
